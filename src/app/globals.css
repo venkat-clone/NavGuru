@@ -6,6 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  font-size: 0.8vw;
+  --active-color: #ff0000;
+  --hover-color: white;
+  --hover-color-caption: #606060;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +23,16 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
 }
+
+captionText{
+  color: #969696;
+}
+
+
