@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  justify-content: center;
+    min-height: max-content;
+    margin: 0 6rem;
+    margin-top: 40px;
+  }
+  
+  .leftColumn {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    /* align-items: center; */
+    gap: 20px;
+  }
+  
+  .rightColumn {
+    flex: 1;
+    height: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .mainText{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+    color: #202020;
+    align-self: center;
+  }
+  .getSterted{
+    width: auto;
+    background-color: #404040;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: right;
+  }
+  
